@@ -34,6 +34,12 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-ebook',
+      options: {
+       filename: 'my-ebook.epub',
+      }
+    },
     `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
