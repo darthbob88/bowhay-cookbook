@@ -8,7 +8,7 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const {tags} = frontmatter;
+  const { tags } = frontmatter
   return (
     <Layout>
       <div className="blog-post-container">
@@ -17,7 +17,12 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-          <footer>{tags.map(singleTag => <Link to={`/tags/${kebabCase(singleTag)}/`}>{singleTag}</Link>)}</footer>
+          <footer>
+            Tags:
+            {tags.map(singleTag => (
+              <Link to={`/tags/${kebabCase(singleTag)}/`}>{singleTag}</Link>
+            ))}
+          </footer>
         </div>
       </div>
     </Layout>
