@@ -1,5 +1,6 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import kebabCase from "lodash/kebabCase"
 import Layout from "../components/layout"
 
 export default function Template({
@@ -7,6 +8,7 @@ export default function Template({
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const {tags} = frontmatter;
   return (
     <Layout>
       <div className="blog-post-container">
@@ -15,6 +17,7 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <footer>{tags.map(singleTag => <Link to={`/tags/${kebabCase(singleTag)}/`}>{singleTag}</Link>)}</footer>
         </div>
       </div>
     </Layout>
@@ -29,6 +32,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
     }
   }
