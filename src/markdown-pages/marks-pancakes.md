@@ -2,6 +2,7 @@
 path: "/recipes/marks-pancakes"
 date: "2020-03-18"
 title: "Markham's Pancakes"
+tags: ["breakfast", "pancakes"]
 ---
 
 ## Markham's Pancakes
