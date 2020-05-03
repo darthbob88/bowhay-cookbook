@@ -12,16 +12,16 @@ const IndexPage = ({
 }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />);
-return  (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <div>{Posts}</div>
-  </Layout>
-)}
-
-
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <h1>Hi people</h1>
+      <div>{Posts}</div>
+      <Link to={"/my-ebook.epub"}>Download these recipes as an ebook.</Link>
+    </Layout>
+  )
+}
 
 const PostLink = ({ post }) => (
   <div>
