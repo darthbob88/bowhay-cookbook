@@ -442,6 +442,8 @@ blockquote {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  font-family: "Apple Chancery", cursive;
+  font-style: oblique;
 }
 form {
   margin-left: 0;
