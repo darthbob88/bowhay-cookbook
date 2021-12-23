@@ -7,7 +7,7 @@ tags: ["carrots", "salad"]
 
 ## Marinated Carrot Salad
 
-This is a great winter-time salad. I love it! It seems to be an acquired taste with kids, though. I can't find Tomato Bisque soup- just substitute regular tomato.
+> This is a great winter-time salad. I love it! It seems to be an acquired taste with kids, though. I can't find Tomato Bisque soup- just substitute regular tomato.
 
 2 to 4 lbs carrots, sliced diagonally. Cook until tender but firm. Cool.  
 Place carrots in large bowl. Add:
