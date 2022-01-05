@@ -7,6 +7,8 @@ tags: ["breakfast", "pancakes"]
 
 ## Markham's Pancakes
 
+> Feeds 4 or 5 for dinner, or fewer with some to snack on throughout the day as breakfast.
+
 ### Ingredients
 
 * 2 cups flour
