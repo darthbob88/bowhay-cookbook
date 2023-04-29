@@ -1,6 +1,6 @@
 ---
-path: "/recipes/marinated-carrot-salad"
-date: "2020-03-18"
+path: "/recipes/marinated-carrot-salad/"
+date: 2020-03-18
 title: "Marinated Carrot Salad"
 tags: ["carrots", "salad"]
 ---

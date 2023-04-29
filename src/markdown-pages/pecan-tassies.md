@@ -1,6 +1,6 @@
 ---
-path: "/recipes/pecan-tassies"
-date: "2020-03-18"
+path: "/recipes/pecan-tassies/"
+date: 2020-03-18
 title: "Pecan Tassies"
 tags: ["pecans", "cookies"]
 ---
