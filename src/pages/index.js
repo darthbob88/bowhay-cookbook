@@ -16,7 +16,7 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <h1>Hi people</h1>
+      <h1>Bowhay Family Cookbook</h1>
       <div>{Posts}</div>
       {/* Not currently functional due to ebook plugin being out of date
       <Link to={"/my-ebook.epub"}>Download these recipes as an ebook.</Link> */}
