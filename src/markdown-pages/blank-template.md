@@ -1,5 +1,5 @@
 ---
-path: "/recipes/Title/"
+path: "/recipes/title/"
 date: 2020-03-18
 title: "Template"
 tags: ["EX", "EX"]
